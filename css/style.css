@@ -1,0 +1,21 @@
+body { background-color: #dfe4eb; }
+.btn { border-radius: 0; }
+.page-header { border-bottom: 0 none; }
+.form-control { border-radius: 0; box-shadow: none; }
+.navbar-default { border-color: #f1f1f1; background-color: #f1f1f1; }
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+	background-color: #fff;
+	box-shadow: 0 0 1px #ccc;
+}
+.line { position: relative; }
+.line:before { background-color: #ff5e72; content: ""; position: absolute; height: 5px; width: 100%; z-index: 1; }
+
+#user .summary { background-color: #eee; border-top: 1px solid #bbb; }
+#user .summary .btn-group .btn { font-size: 15px; background-color: transparent; border-right: 1px solid #bbb; }
+#user .summary .btn-group .btn:last-child { border-right: 0 none; }
+
+#search .input-group-addon { background-color: #fff; border: 0 none; border-radius: 0; color: #ff5e72; }
+#search .form-control { border: 0 none; border-radius: 0; padding: 10px 16px 10px 0; }
+#search .form-control:focus { box-shadow: none; }
+
+#menu .list-group .list-group-item { height: 46px; }
